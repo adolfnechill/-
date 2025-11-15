@@ -1,0 +1,18 @@
+header {
+  background: #df9292;
+  height: 60px;
+}
+a {
+  color: black;
+}
+.qu {
+  background: #e0bdbd;
+}
+footer {
+  background: #661e83;
+  height: 300px;
+  color: aliceblue;
+}
+footer a {
+  color: aliceblue;
+}
