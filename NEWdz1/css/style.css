@@ -1,0 +1,16 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  text-transform: uppercase;
+}
+img {
+  width: 1000px;
+}
+h2 {
+  text-transform: uppercase;
+}
+video {
+  width: 1000px;
+}
