@@ -26,3 +26,15 @@ h1, h2, h3, h4, h5, h6, p {
 a {
   text-decoration: none;
 }
+
+.text-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #535755;
+}
+
+.button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
