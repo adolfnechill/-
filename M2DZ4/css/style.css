@@ -106,4 +106,14 @@
   border-radius: 50%;
   padding: 0;
   cursor: pointer;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.article-button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.article-button:active {
+  color: #246cac;
 }

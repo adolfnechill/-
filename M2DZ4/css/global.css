@@ -3,7 +3,9 @@ html {
   font-weight: 400;
 }
 
-body *, *::after, *::before{
+body *,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -13,7 +15,13 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -37,4 +45,42 @@ a {
 .button:hover {
   opacity: 0.85;
   cursor: pointer;
+}
+
+.button:active {
+  background-color: #246cac;
+}
+
+.button:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: #246cac;
+}
+
+a,
+button {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #3596ed;
+  outline-offset: 1px;
+}
+
+.title-medium {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #2c332f;
 }
